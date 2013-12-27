@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://gitorious.org/gitorious/use_case"
   s.summary = "Encapsulate non-trivial Ruby business logic"
   s.description = "Compose non-trivial business logic into use cases that combine input parameter abstractions, system-level pre-conditions, input parameter validation, and commands."
+  s.license = "MIT"
 
   s.files = `git ls-files`.split("\n")
   s.test_files = `git ls-files test`.split("\n")
