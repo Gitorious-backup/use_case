@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
   s.author = "Christian Johansen"
   s.email = "christian@gitorious.com"
   s.homepage = "http://gitorious.org/gitorious/use_case"
-  s.summary = s.description = ""
+  s.summary = "Encapsulate non-trivial Ruby business logic"
+  s.description = "Compose non-trivial business logic into use cases that combine input parameter abstractions, system-level pre-conditions, input parameter validation, and commands."
 
   s.files = `git ls-files`.split("\n")
   s.test_files = `git ls-files test`.split("\n")
